@@ -1,0 +1,10 @@
+framework module LocalNotificationManager {
+  umbrella header "LocalNotificationManager.h"
+
+  export *
+  module * { export * }
+}
+
+module LocalNotificationManager.Swift {
+    header "LocalNotificationManager-Swift.h"
+}
